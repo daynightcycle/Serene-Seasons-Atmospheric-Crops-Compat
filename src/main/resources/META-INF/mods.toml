@@ -1,27 +1,26 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 license = "MIT License"
-issueTrackerURL = "https://github.com/darkorg69/serene-seasons-pams-harvestcraft-2-crops-compat/issues"
+issueTrackerURL = "https://github.com/daynightcycle/Serene-Seasons-Atmospheric-Crops-Compat/issues"
 [[mods]]
-modId = "sereneseasonsphc2crops"
+modId = "sereneseasonsatmosphericcrops"
 version = "${file.jarVersion}"
-displayName = "Serene Seasons - Pam's HarvestCraft 2 - Crops Compat"
-displayURL = "https://www.curseforge.com/minecraft/mc-mods/serene-seasons-pams-harvestcraft-2-crops-compat"
-logoFile = "sereneseasonsphc2crops.png"
-credits = "Thanks for this mod goes to Java and the Forge Team."
-authors = "Darkorg"
+displayName = "Serene Seasons - Atmospheric - Crops Compat"
+displayURL = "https://github.com/daynightcycle/Serene-Seasons-Atmospheric-Crops-Compat"
+credits = "Thanks for this mod goes to Darkorg, Java, and the Forge Team."
+authors = "Darkorg, daynightcycle"
 description = '''Grow your crops in their respective seasons!'''
 
-[[dependencies.sereneseasonsphc2crops]]
+[[dependencies.sereneseasonsatmosphericcrops]]
 modId = "sereneseasons"
 mandatory = true
 versionRange = "[1.19.2-8.1.0.24,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.sereneseasonsphc2crops]]
+[[dependencies.sereneseasonsatmosphericcrops]]
 modId = "pamhc2crops"
 mandatory = true
-versionRange = "[1.0.2,)"
+versionRange = "[5.0.0,)"
 ordering = "NONE"
 side = "BOTH"
